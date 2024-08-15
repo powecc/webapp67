@@ -1,0 +1,33 @@
+.ul01:hover{
+    text-decoration:underline 3px greenyellow;
+}
+.ul02:hover{
+    text-decoration:underline 3px greenyellow;
+}
+.ul03:hover{
+    text-decoration:underline 3px greenyellow;
+}
+.ul01{
+    float:right;
+    display:flex;
+    list-style: none;
+}
+.ul02{
+    float:right;
+    display:flex;
+    list-style: none;
+}
+.ul03{
+    float:right;
+    display:flex;
+    list-style: none;
+}
+img{
+    border-radius:50%;
+    float: right;
+}
+.footer01{
+    margin: 7rem;
+    display:flex;
+    
+}

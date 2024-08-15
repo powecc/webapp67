@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    border: 1px solid blue;
+    color: tomato;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1.5rem;
+    align-content: center;
+    background-color: thistle;
+}
+
+ul.menu{
+    display: flex;
+    color: wheat;
+    text-decoration: none;
+}
+ul.menu a{
+    color: rgb(5, 16, 163);
+}
+
+.sec01{
+    border: 1px solid rebeccapurple;
+    color: rgb(231, 167, 88);
+}
+.sec01 h1{
+    color: blueviolet;
+}
+
+.sec01 h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: tomato;
+}
+
+.atc01{
+    border: 2px dotted firebrick;
+    font-size: 1rem;
+    background-color: cornflowerblue;
+}
+
+.atc02{
+    font-family: 'Courier New', Courier, monospace;
+    color: thistle;
+    border: 2px solid blue;
+    background-image: url(1.jpg);
+}
+
+.aside01{
+    border:3px solid blue;
+    float: right;
+    background-color: wheat;
+}
+
+.footer01{
+    margin: 7rem;
+}
