@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #eea8ae38;
+        }
+        h1{
+            text-align: center;
+        }
+        h2 {
+            color: #333;
+            text-align: left;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 100px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #555;
+        }
+
+        button {
+            width: 30%;
+            padding: 10px;
+            background-color: #0034a5;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        button[type="reset"] {
+            background-color: #dc3545;
+            margin-left: 0%;
+        }
+
+        button:hover {
+            opacity: 0.9;
+        }
+        </style>
+</head>
+<body>
+    <h1>สมัครสมาชิกผู้ใช้งาน</h1>
+    <h2>1.ข้อมูลส่วนตัว</h2>
+    <label for="ชื่อผู้ใช้งาน">ชื่อผู้ใช้งาน:</label>
+    <input type="=text" name="=ชื่อผู้ใช้งาน" value="">
+    <label for="ชื่อ-นามสกุล">ชื่อ-นามสกุล:</label>
+    <input type="=text" name="ชื่อ-นามสกุล" value="">
+    <label for="เบอร์">เบอร์:</label>    
+    <input type="text" name="เบอร์" value="">
+    <p>อีเมล:</p>
+    <input type="=text" name="อีเมล" value="">
+    <label for="รหัสผ่าน">รหัสผ่าน:</label>
+    <input type="password" name="รหัสผ่าน" value="">
+
+    <h2>2.ที่อยู่ปัจจุบัน</h2>
+    <label for="บ้านเลขที่">บ้านเลขที่:</label>
+    <input type="text" name="บ้านเลขที่" value="">
+    <label for="จังหวัด">จังหวัด:</label>
+    <select name="จังหวัด" id="จังหวัด">
+        <option value="ปทุมธานี">ปทุมธานี</option>
+        <option value="นครนายก">นครนายก</option>
+    </select>
+    <br>
+    <label for="อำเภอ">อำเภอ:</label>
+    <select name="อำเภอ" id="อำเภอ">
+        <option value="บึงทองหลาง">บึงทองหลาง</option>
+        <option value="ลำลูกกา">ลำลูกกา</option>
+    </select>
+    <br>
+    <label for="รหัสไปรษณื">รหัสไปรษณื:</label>
+    <input type="password" name="รหัสไปรษณื" value="">
+    <br>
+    <label for="myfile">อัพโหลดรูปโปรไฟล์:</label>
+    <input type="file" id="myfile" name="myfile">
+
+    <div>
+    <a href="Login.html"><button onclick="สมัครสมาชิก()">สมัครสมาชิก</button></a>
+    <button onclick="ยกเลิก()">ยกเลิก</button>
+    </div>
+
+</body>
+</html>

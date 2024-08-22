@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>การเข้าสู่ระบบทั่วไป</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="login">
+    <div class="login-container">
+        <h1>การเข้าสู่ระบบทั่วไป</h1>
+        <input type="text" id="username" placeholder="กรอก ชื่อผู้ใช้งาน">
+        <input type="password" id="password" placeholder="กรอก รหัสผ่าน">
+        <a href="Page.html"><button onclick="login()">เข้าสู่ระบบ</button></a>
+        <a href="Register.html" class="register"><input type="button" name="ลงทะเบียน" value="ลงทะเบียน"></a>
+        <div id="alert" class="alert">เข้าสู่ระบบไม่ถูกต้อง</div>
+    </div>
+
+    <script>
+        function login() {
+            // Simulate login process
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+            const alertDiv = document.getElementById('alert');
+
+            // Simple validation example (you can replace this with real validation)
+            if (username === 'user' && password === 'password') {
+                alertDiv.classList.remove('show');
+                // Redirect or perform login success actions
+                alert('เข้าสู่ระบบสำเร็จ');
+            } else {
+                alertDiv.classList.add('show');
+            }
+        }
+    </script>
+</body>
+</html>
