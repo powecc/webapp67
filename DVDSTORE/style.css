@@ -1,0 +1,25 @@
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 2px solid #007BFF; /* กรอบตารางสีน้ำเงิน */
+}
+
+th, td {
+    border: 1px solid #007BFF; /* กรอบเซลล์สีน้ำเงิน */
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #1ec026; /* พื้นหลังของ header สีน้ำเงิน */
+    color: white; /* ตัวอักษรสีขาว */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* แถวคู่พื้นหลังสีเทาอ่อน */
+}
+
+tr:hover {
+    background-color: #cfff77; /* แถวที่ถูกชี้เมาส์สีฟ้าอ่อน */
+}
